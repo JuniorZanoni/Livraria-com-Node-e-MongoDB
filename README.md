@@ -58,9 +58,9 @@ Você vai precisar ter instalado em sua máquina as seguintes ferramentas.
     - [ ] Retornar livro cadastrado
   - [x] Consultar todos livros
       - [x] Retornar todos livros
-  - [ ] Consultar livro por ID
-      - [ ] Verificar se livro existe
-      - [ ] Retornar livro corresponde ao ID
+  - [x] Consultar livro por ID
+      - [x] Verificar se o livro existe
+      - [x] Retornar livro corresponde ao ID
   - [ ] Atualizar
     - [ ] Middleware de verificação dos campos
     - [ ] Atualizar no banco
