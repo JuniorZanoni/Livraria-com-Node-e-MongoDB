@@ -49,15 +49,15 @@ Você vai precisar ter instalado em sua máquina as seguintes ferramentas.
 
 ## Requisitos
 - MongoDB
-  - [ ] Criação das models
-  - [ ] Configuração da conexão
+  - [x] Criação das models
+  - [x] Configuração da conexão
 - Rotas
   - [ ] Cadastrar
     - [ ] Middleware de verificação dos campos
     - [ ] Cadastrar no banco
     - [ ] Retornar livro cadastrado
-  - [ ] Consultar todos livros
-      - [ ] Retornar todos livros
+  - [x] Consultar todos livros
+      - [x] Retornar todos livros
   - [ ] Consultar livro por ID
       - [ ] Verificar se livro existe
       - [ ] Retornar livro corresponde ao ID
