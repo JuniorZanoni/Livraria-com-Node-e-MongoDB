@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
+import Livros from '../models/LivrosSchema.js';
 
-mongoose.connect(process.env.DB_URI);
+mongoose.connect('mongodb://localhost:27017/biblioteca');
 
 const db = mongoose.connection;
 
