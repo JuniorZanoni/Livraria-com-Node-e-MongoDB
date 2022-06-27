@@ -16,6 +16,17 @@ class livrosController {
 
     return res.status(200).json({ message: 'Livro não encontrado' });
   }
+
+  static async delete(req, res) {
+    const { id } = req.params;
+    const livro = await livrosService.delete(id);
+
+    if (livro) {
+      return res.status(200).json({ message: 'Livro deletado com sucesso' });
+    }
+
+    return res.status(200).json({ message: 'Livro não encontrado' });
+  }
 }
 
 export default livrosController;

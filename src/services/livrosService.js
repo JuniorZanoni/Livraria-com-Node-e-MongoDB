@@ -14,6 +14,15 @@ class livrosService {
       return false;
     }
   }
+
+  static async delete(id) {
+    try {
+      const livros = await Livros.findByIdAndDelete(id);
+      return livros;
+    } catch (error) {
+      return false;
+    }
+  }
 }
 
 export default livrosService;

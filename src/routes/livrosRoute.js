@@ -6,5 +6,6 @@ const router = express.Router();
 
 router.get('/', livrosController.getAll);
 router.get('/:id', verificaId, livrosController.getById);
+router.delete('/:id', verificaId, livrosController.delete);
 
 export default router;

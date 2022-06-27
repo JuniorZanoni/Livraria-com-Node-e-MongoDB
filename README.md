@@ -65,9 +65,9 @@ Você vai precisar ter instalado em sua máquina as seguintes ferramentas.
     - [ ] Middleware de verificação dos campos
     - [ ] Atualizar no banco
     - [ ] Retornar livro atualizado
-  - [ ] Deletar
-      - [ ] Verificar se livro existe
-      - [ ] Retornar livro deletado
+  - [x] Deletar
+      - [x] Verificar se livro existe
+      - [x] Retornar livro deletado
 
 ## 🚀 Como executar o projeto
 
