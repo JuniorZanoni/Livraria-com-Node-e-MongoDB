@@ -9,5 +9,6 @@ router.get('/livros', livrosController.getAll);
 router.get('/livros/:id', verificaId, livrosController.getById);
 router.delete('/livros/:id', verificaId, livrosController.delete);
 router.post('/livros', verificaLivro, livrosController.insert);
+router.patch('/livros/:id', verificaId, verificaLivro, livrosController.update);
 
 export default router;

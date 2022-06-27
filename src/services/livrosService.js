@@ -32,6 +32,15 @@ class livrosService {
       return false;
     }
   }
+
+  static async update(id, livro) {
+    try {
+      const livroAtualizado = await Livros.findByIdAndUpdate(id, livro, { new: true });
+      return livroAtualizado;
+    } catch (error) {
+      return false;
+    }
+  }
 }
 
 export default livrosService;

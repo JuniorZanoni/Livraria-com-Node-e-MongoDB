@@ -38,6 +38,18 @@ class livrosController {
 
     return res.status(500).json({ message: 'Aconteceu algo de errado, tente novamente' });
   }
+
+  static async update(req, res) {
+    const { title, author } = req.body;
+    const { id } = req.params;
+    const livro = await livrosService.update(id, { title, author });
+
+    if (livro) {
+      return res.status(200).json(livro);
+    }
+
+    return res.status(200).json({ message: 'Livro não encontrado' });
+  }
 }
 
 export default livrosController;

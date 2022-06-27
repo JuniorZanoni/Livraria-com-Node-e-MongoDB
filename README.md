@@ -61,10 +61,10 @@ Você vai precisar ter instalado em sua máquina as seguintes ferramentas.
   - [x] Consultar livro por ID
       - [x] Verificar se o livro existe
       - [x] Retornar livro corresponde ao ID
-  - [ ] Atualizar
-    - [ ] Middleware de verificação dos campos
-    - [ ] Atualizar no banco
-    - [ ] Retornar livro atualizado
+  - [x] Atualizar
+    - [x] Middleware de verificação dos campos
+    - [x] Atualizar no banco
+    - [x] Retornar livro atualizado
   - [x] Deletar
       - [x] Verificar se livro existe
       - [x] Retornar livro deletado
