@@ -1,0 +1,32 @@
+{
+  "name": "livraria-com-node-e-mongo",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">   📚 Livraria Z </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuniorZanoni/Livraria-com-Node-e-Mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuniorZanoni/Livraria-com-Node-e-Mongo/issues"
+  },
+  "homepage": "https://github.com/JuniorZanoni/Livraria-com-Node-e-Mongo#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.7.1"
+  }
+}
