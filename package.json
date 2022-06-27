@@ -2,6 +2,7 @@
   "name": "livraria-com-node-e-mongo",
   "version": "1.0.0",
   "description": "<h1 align=\"center\">   📚 Livraria Z </h1>",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
