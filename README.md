@@ -17,14 +17,14 @@
 
 ## Sobre o projeto
 Livraria Z - é um projeto desenvolvido com o intuito de praticar conhecimentos em Node.js e MongoDB, criando um CRUD com arquitetura REST, para gerenciamento de livros.
-
+Pensando que livros podem ter nomes iguais, optei por fazer as manipulações no banco de dados através apenas do ID de cada livro, procurando evitar acidentes de dados.
 ---
 
 ## Funcionalidades
-- [ ] Cadastrar livros
-- [ ] Consultar livros
-- [ ] Atualizar livros
-- [ ] Deletar livros
+- [x] Cadastrar livros
+- [x] Consultar livros
+- [x] Atualizar livros
+- [x] Deletar livros
 
 ---
 
@@ -33,17 +33,21 @@ Livraria Z - é um projeto desenvolvido com o intuito de praticar conhecimentos 
 Você vai precisar ter instalado em sua máquina as seguintes ferramentas.
 - **[Git](https://git-scm.com)**
 - **[Node.js](https://nodejs.org/en/)**
-
+- **[MongoDB](https://www.mongodb.com/)**
+- **[Docker](https://www.docker.com/)**
 ---
 
 ## Tecnologias e bibliotecas
 
 - **[Node.js](https://nodejs.org/en/)**
 - **[MongoDB](https://www.mongodb.com/)**
+
 - **[Mongoose](https://www.npmjs.com/package/mongoose/)**
 - **[Express](https://www.mongodb.com/)**
 - **[Dotenv](https://www.npmjs.com/package/dotenv/)**
 - **[ESLint](https://www.npmjs.com/package/eslint/)**
+- **[Body-parser](https://expressjs.com/en/resources/middleware/body-parser.html)**
+- **[Nodemon](https://www.npmjs.com/package/nodemon)**
 
 ---
 
