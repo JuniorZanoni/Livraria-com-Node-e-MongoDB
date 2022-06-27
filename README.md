@@ -40,6 +40,7 @@ Você vai precisar ter instalado em sua máquina as seguintes ferramentas.
 
 - **[Node.js](https://nodejs.org/en/)**
 - **[MongoDB](https://www.mongodb.com/)**
+- **[Mongoose](https://www.npmjs.com/package/mongoose/)**
 - **[Express](https://www.mongodb.com/)**
 - **[Dotenv](https://www.npmjs.com/package/dotenv/)**
 - **[ESLint](https://www.npmjs.com/package/eslint/)**
