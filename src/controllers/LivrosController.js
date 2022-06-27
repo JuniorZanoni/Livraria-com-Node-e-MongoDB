@@ -27,6 +27,17 @@ class livrosController {
 
     return res.status(200).json({ message: 'Livro não encontrado' });
   }
+
+  static async insert(req, res) {
+    const { title, author } = req.body;
+    const livroCriado = await livrosService.insert({ title, author });
+
+    if (livroCriado) {
+      return res.status(201).json({ message: 'Livro criado com sucesso' });
+    }
+
+    return res.status(500).json({ message: 'Aconteceu algo de errado, tente novamente' });
+  }
 }
 
 export default livrosController;

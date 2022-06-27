@@ -1,11 +1,13 @@
 import express from 'express';
 import livrosController from '../controllers/LivrosController.js';
 import verificaId from '../middlewares/verificaId.js';
+import verificaLivro from '../middlewares/verifcaLivro.js';
 
 const router = express.Router();
 
-router.get('/', livrosController.getAll);
-router.get('/:id', verificaId, livrosController.getById);
-router.delete('/:id', verificaId, livrosController.delete);
+router.get('/livros', livrosController.getAll);
+router.get('/livros/:id', verificaId, livrosController.getById);
+router.delete('/livros/:id', verificaId, livrosController.delete);
+router.post('/livros', verificaLivro, livrosController.insert);
 
 export default router;

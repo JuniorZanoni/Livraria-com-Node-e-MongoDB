@@ -52,10 +52,10 @@ Você vai precisar ter instalado em sua máquina as seguintes ferramentas.
   - [x] Criação das models
   - [x] Configuração da conexão
 - Rotas
-  - [ ] Cadastrar
-    - [ ] Middleware de verificação dos campos
-    - [ ] Cadastrar no banco
-    - [ ] Retornar livro cadastrado
+  - [x] Cadastrar
+    - [x] Middleware de verificação dos campos
+    - [x] Cadastrar no banco
+    - [x] Retornar livro cadastrado
   - [x] Consultar todos livros
       - [x] Retornar todos livros
   - [x] Consultar livro por ID

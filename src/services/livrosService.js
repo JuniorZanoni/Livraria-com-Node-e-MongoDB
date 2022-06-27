@@ -23,6 +23,15 @@ class livrosService {
       return false;
     }
   }
+
+  static async insert(livro) {
+    try {
+      const livroCriado = await Livros.create(livro);
+      return livroCriado;
+    } catch (error) {
+      return false;
+    }
+  }
 }
 
 export default livrosService;
