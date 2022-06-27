@@ -21,10 +21,10 @@ Livraria Z - é um projeto desenvolvido com o intuito de praticar conhecimentos 
 ---
 
 ## Funcionalidades
-- [] Cadastrar livros
-- [] Consultar livros
-- [] Atualizar livros
-- [] Deletar livros
+- [ ] Cadastrar livros
+- [ ] Consultar livros
+- [ ] Atualizar livros
+- [ ] Deletar livros
 
 ---
 
@@ -49,25 +49,25 @@ Você vai precisar ter instalado em sua máquina as seguintes ferramentas.
 
 ## Requisitos
 - MongoDB
-  - [] Criação das models
-  - [] Configuração da conexão
+  - [ ] Criação das models
+  - [ ] Configuração da conexão
 - Rotas
-  - [] Cadastrar
-    - [] Middleware de verificação dos campos
-    - [] Cadastrar no banco
-    - [] Retornar livro cadastrado
-  - [] Consultar todos livros
-      - [] Retornar todos livros
-  - [] Consultar livro por ID
-      - [] Verificar se livro existe
-      - [] Retornar livro corresponde ao ID
-  - [] Atualizar
-    - [] Middleware de verificação dos campos
-    - [] Atualizar no banco
-    - [] Retornar livro atualizado
-  - [] Deletar
-      - [] Verificar se livro existe
-      - [] Retornar livro deletado
+  - [ ] Cadastrar
+    - [ ] Middleware de verificação dos campos
+    - [ ] Cadastrar no banco
+    - [ ] Retornar livro cadastrado
+  - [ ] Consultar todos livros
+      - [ ] Retornar todos livros
+  - [ ] Consultar livro por ID
+      - [ ] Verificar se livro existe
+      - [ ] Retornar livro corresponde ao ID
+  - [ ] Atualizar
+    - [ ] Middleware de verificação dos campos
+    - [ ] Atualizar no banco
+    - [ ] Retornar livro atualizado
+  - [ ] Deletar
+      - [ ] Verificar se livro existe
+      - [ ] Retornar livro deletado
 
 ## 🚀 Como executar o projeto
 
@@ -81,20 +81,17 @@ Você vai precisar ter instalado em sua máquina as seguintes ferramentas.
 ---
 
 
-<center> 
+<div align="center"> 
 
 ## Autor
 
 ### Júnior Zanoni
 
- <img align="center" style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/53435053?v=4" width="100px;" alt=""/>
+  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/53435053?v=4" width="100px;" alt=""/>
 
-<br>
+  [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/junior-zanoni/) 
+  [![Gmail Badge](https://img.shields.io/badge/-zanoni.odenir%40gmail.com-red?style=for-the-badge)](mailto:zanoni.odenir@gmail.com)
 
-[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=for-the-badge)](https://www.linkedin.com/in/junior-zanoni/) 
-[![Gmail Badge](https://img.shields.io/badge/-zanoni.odenir%40gmail.com-red?style=for-the-badge)](mailto:zanoni.odenir@gmail.com)
+</div>
 
 ---
-</center>
-
-
